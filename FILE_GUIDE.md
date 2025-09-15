@@ -10,7 +10,7 @@
 | **`live_trading.py`** | 💰 **Real money trading** | After 60%+ win rate in paper trading |
 
 
-
+hkke
 
 ## 📋 **PORTFOLIO & STATE FILES (Auto-generated)**
 
