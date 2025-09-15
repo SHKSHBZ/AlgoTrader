@@ -1,0 +1,78 @@
+{
+  "initial_capital": 250000,
+  "paper_trading": true,
+  "trading_hours": {
+    "start": "09:15",
+    "end": "15:30"
+  },
+  "analysis_interval": 900,
+  "max_positions": 20,
+  "target_utilization": 0.85,
+  "strategy": {
+    "buy_threshold": 70,
+    "sell_threshold": 30,
+    "min_votes": 3,
+    "max_risk_per_trade": 0.015,
+    "kelly_fraction": 0.35,
+    "max_drawdown_limit": 0.12,
+    "enable_audit": true,
+    "commission_per_share": 0.003,
+    "slippage_percent": 0.0005,
+    "take_profit_multiplier": 2.3,
+    "trailing_stop_enabled": true,
+    "trailing_stop_percent": 2.0,
+    "trailing_stop_activation_percent": 1.5,
+    "trailing_stop_step_size": 0.5,
+    "momentum_boost": true
+  },
+  "performance_target": {
+    "annual_roi": 0.15,
+    "monthly_target": 0.0117,
+    "max_monthly_drawdown": 0.05,
+    "min_win_rate": 0.65,
+    "min_profit_factor": 1.8
+  },
+  "watchlist": [
+    "RELIANCE", "TCS", "HDFCBANK", "INFY", "HINDUNILVR", 
+    "ICICIBANK", "KOTAKBANK", "LT", "ITC", "AXISBANK",
+    "WIPRO", "HCLTECH", "MARUTI", "SUNPHARMA", "BHARTIARTL",
+    "ADANIENT", "NTPC", "POWERGRID", "COALINDIA", "ULTRACEMCO",
+    "SBIN", "BAJFINANCE", "TATAMOTORS", "ONGC", "ASIANPAINT",
+    "NESTLEIND", "BRITANNIA", "TATASTEEL", "HINDALCO", "JSWSTEEL",
+    "GRASIM", "TECHM", "DRREDDY", "CIPLA", "BAJAJ-AUTO",
+    
+    "GODREJCP", "PIDILITIND", "BANDHANBNK", "TORNTPHARM", "UBL",
+    "INDIGO", "ADANIPORTS", "PAGEIND", "DABUR", "MARICO",
+    "BIOCON", "CADILAHC", "MOTHERSUMI", "ASHOKLEY", "LUPIN",
+    "BOSCHLTD", "MRF", "SIEMENS", "TITAN", "DIVISLAB",
+    "BAJAJFINSV", "HDFCAMC", "SAIL", "NMDC", "VEDL",
+    "APOLLOHOSP", "AUROPHARMA", "CONCOR", "HAVELLS", "VOLTAS",
+    "BERGEPAINT", "INDUSINDBK", "FEDERALBNK", "BANKBARODA", "PNB",
+    
+    "RBLBANK", "IDFCFIRSTB", "EQUITAS", "CREDITACC", "UJJIVAN",
+    "CHOLAFIN", "PFC", "RECLTD", "HUDCO", "CANFINHOME",
+    "LICHSGFIN", "SRTRANSFIN", "M&MFIN", "MAHINDCIE", "ASHOKA",
+    "GMRINFRA", "ADANIGREEN", "ADANITRANS", "ADANIGAS", "JSWENERGY",
+    "TORNTPOWER", "NHPC", "SJVN", "THERMAX", "BEL",
+    "BHEL", "GAIL", "IOC", "BPCL", "HINDPETRO",
+    "GRANULES", "MINDTREE", "NYKAA", "ZOMATO", "PAYTM"
+  ],
+  "data": {
+    "use_zerodha": true,
+    "cache_duration_minutes": 15,
+    "fallback_sources": [
+      "zerodha",
+      "yahoo",
+      "local_cache"
+    ],
+    "zerodha_config": {
+      "default_interval": "15minute",
+      "default_period": "60day"
+    }
+  },
+  "notifications": {
+    "enable_logging": true,
+    "log_level": "INFO",
+    "daily_report": true
+  }
+}

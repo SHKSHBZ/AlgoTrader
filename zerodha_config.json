@@ -1,0 +1,14 @@
+{
+  "api_key": "wxsju8klw8nxi9d9",
+  "api_secret": "ni01uqeigc32ovhyjczj1h65p0np0c9f",
+  "totp_key": "your_totp_key_here",
+  "user_id": "ITG189",
+  "password": "Arnoldsk@1",
+  "access_token": "N6uGXWJz03fbwoMs3q282CRqLmufkLnq",
+  "request_token": "TFc7QmYMIN9Wq6nt8vu1qyECSRg1BVfH",
+  "settings": {
+    "auto_login": true,
+    "cache_instruments": true,
+    "default_exchange": "NSE"
+  }
+}
