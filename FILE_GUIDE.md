@@ -9,6 +9,9 @@
 | **`paper_trading.py`** | 🧪 **Virtual trading with ₹250K** | Main testing - trailing stops included |
 | **`live_trading.py`** | 💰 **Real money trading** | After 60%+ win rate in paper trading |
 
+
+
+
 ## 📋 **PORTFOLIO & STATE FILES (Auto-generated)**
 
 | File | Purpose | Contents |
